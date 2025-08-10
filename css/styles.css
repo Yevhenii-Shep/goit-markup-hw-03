@@ -26,29 +26,27 @@ a {
 button {
   font-family: inherit;
 }
-img{
+img {
   display: block;
 }
 .site-header {
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container{
+.header-container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.site-nav{
+.site-nav {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
-.nav-list{
+.nav-list {
   display: flex;
-  margin-right:40px;
+  margin-right: 40px;
   gap: 40px;
-  
-  
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -58,7 +56,7 @@ img{
   text-transform: uppercase;
   color: #4d5ae5;
   line-height: 1.17;
-  margin-right:76px;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -86,11 +84,12 @@ img{
   font-style: normal;
 }
 
-.contact-list{
+.contact-list {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
-.contact-mail, .contact-phone {
+.contact-mail,
+.contact-phone {
   font-size: 16px;
   color: #434455;
   transition: color 250ms ease;
@@ -98,13 +97,15 @@ img{
   letter-spacing: 0.02em;
 }
 
-.contact-mail:hover ,.contact-phone:hover,
-.contact-mail:focus, .contact-phone:focus {
+.contact-mail:hover,
+.contact-phone:hover,
+.contact-mail:focus,
+.contact-phone:focus {
   color: #404bbf;
 }
 
 .hero-section {
-  padding: 188px 0 ;
+  padding: 188px 0;
   background-color: #2e2f42;
   text-align: center;
 }
@@ -150,17 +151,17 @@ img{
   margin-bottom: 72px;
   line-height: 1.07;
 }
-.feature-section{
+.features-section {
   padding: 120px 0;
 }
-.features-list{
-  display:flex;
+.features-list {
+  display: flex;
   gap: 24px;
 }
-.feature-item{
-  flex-basis: calc((100% - 72px) / 4  );
+.feature-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -173,7 +174,6 @@ img{
   overflow: hidden;
 }
 
-
 .feature-text {
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -182,6 +182,7 @@ img{
 }
 
 .team-section {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
