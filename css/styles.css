@@ -161,7 +161,7 @@ img {
 .feature-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-.features-title {
+.feature-title {
   margin-bottom: 8px;
 }
 .visually-hidden {
@@ -195,6 +195,9 @@ img {
   border-radius: 0 0 4px 4px;
   text-align: center;
 }
+.team-container{
+  padding: 32px 0;
+}
 .team-info {
   padding: 32px 0;
   text-align: center;
@@ -202,25 +205,26 @@ img {
 .team-name {
   margin-bottom: 8px;
   text-align: center;
-  font-size: 18px;
 }
 .team-role {
   text-align: center;
-  font-size: 16px;
-  color: #434455;
 }
 .team-list {
   display: flex;
   gap: 24px;
 }
 
+.portfolio-section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48;
+  row-gap: 48px;
 }
-.porfolio-item {
+.portfolio-item {
   flex-basis: calc((100%-48px) / 3);
   list-style: none;
 }
